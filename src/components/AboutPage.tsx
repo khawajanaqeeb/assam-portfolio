@@ -15,7 +15,7 @@ export default function AboutPage() {
             </strong>
             , a dedicated professional with a unique blend of technical
             expertise and business acumen. My journey spans across software
-            engineering and the property sector, where I've built a solid
+            engineering and the property sector, where I&apos;ve built a solid
             reputation over 9 years.
           </p>
           <p>
@@ -23,7 +23,7 @@ export default function AboutPage() {
             <strong className="font-bold text-slate-900">
               Software Engineer
             </strong>{" "}
-            graduate from NED University of Engineering & Technology, I've
+            graduate from NED University of Engineering & Technology, I&apos;ve
             worked with leading organizations including Nexus Software House as
             a Web Developer and 3D Marketing as a Team Leader, where I led teams
             for 6 years.

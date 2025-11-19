@@ -15,7 +15,7 @@ export default function ContactPage() {
         </div>
         <p className="text-xl text-slate-600 mb-10 font-light leading-relaxed">
           Feel free to reach out to me through any of the following channels.
-          I'm always open to discussing new opportunities, partnerships, or just
+          I&apos;m always open to discussing new opportunities, partnerships, or just
           having a conversation.
         </p>
         <div className="space-y-6">
@@ -57,11 +57,11 @@ export default function ContactPage() {
 
           <div className="mt-10 p-10 bg-gradient-to-r from-slate-900 via-indigo-900 to-blue-900 rounded-3xl text-white shadow-2xl">
             <h3 className="text-4xl font-black mb-4 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-300 font-heading">
-              Let's Work Together
+              Let&apos;s Work Together
             </h3>
             <p className="text-xl font-light leading-relaxed text-blue-100/90">
-              Whether you're looking for technical expertise in software
-              development or professional guidance in the property sector, I'm
+              Whether you&apos;re looking for technical expertise in software
+              development or professional guidance in the property sector, I&apos;m
               here to help bring your vision to life.
             </p>
           </div>
