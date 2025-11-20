@@ -24,3 +24,24 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Auto-scroll animation for horizontal experience row */
+@keyframes scrollX {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.auto-scroll {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  animation: scrollX 30s linear infinite;
+}
+
+.auto-scroll:hover {
+  animation-play-state: paused;
+}
+
+.auto-scroll > * {
+  flex-shrink: 0;
+}

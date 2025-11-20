@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 import HomePage from "@/components/HomePage";
 import AboutPage from "@/components/AboutPage";
 import EducationPage from "@/components/EducationPage";
-import ExperiencePage from "@/components/ExperiencePage";
+import ExperiencePage from "@/components/ExperienceFinal";
 import HonorsPage from "@/components/HonorsPage";
 import ContactPage from "@/components/ContactPage";
 
