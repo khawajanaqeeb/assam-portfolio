@@ -10,7 +10,7 @@ export default function Footer() {
             Hafiz Assam Mazhar
           </h3>
           <p className="text-blue-200/70 mb-6">
-            Software Engineer & Property Director
+            Software Engineer & Property Consultant
           </p>
           <div className="flex justify-center gap-6 mb-6">
             <a

@@ -18,7 +18,7 @@ export default function HomePage({ setCurrentPage }: HomePageProps) {
               Hafiz Assam Mazhar
             </h1>
             <p className="text-3xl font-semibold text-slate-700">
-              Software Engineer & Property Director
+              Software Engineer & Property Consultant
             </p>
           </div>
           <p className="text-xl text-slate-600 leading-relaxed font-light">
