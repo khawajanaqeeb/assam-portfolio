@@ -1,9 +1,9 @@
 import React from "react";
-import { Phone, Facebook } from "lucide-react";
+import { Phone, Facebook, Mail } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900 text-white mt-20 border-t border-indigo-500/20">
+    <footer className="bg-slate-900 text-white mt-20 border-t border-indigo-500/20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="text-center">
           <h3 className="text-2xl font-bold mb-2 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-300 font-heading">
@@ -13,6 +13,7 @@ export default function Footer() {
             Software Engineer & Property Consultant
           </p>
           <div className="flex justify-center gap-6 mb-6">
+            {/* Phone Link */}
             <a
               href="tel:+923198306280"
               className="text-blue-300 hover:text-blue-100 transition-colors"
@@ -20,6 +21,17 @@ export default function Footer() {
             >
               <Phone size={24} />
             </a>
+
+            {/* Email Link */}
+            <a
+              href="mailto:assammmazhar89@gmail.com"
+              className="text-blue-300 hover:text-blue-100 transition-colors"
+              aria-label="Email"
+            >
+              <Mail size={24} />
+            </a>
+
+            {/* Facebook Link */}
             <a
               href="https://www.facebook.com/share/1A36PF6YEy/?mibextid=wwXIfr"
               target="_blank"

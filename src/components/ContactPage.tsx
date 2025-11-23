@@ -6,21 +6,25 @@ export default function ContactPage() {
     <div className="max-w-5xl mx-auto">
       <div className="bg-white rounded-3xl shadow-2xl p-10 md:p-16 border border-indigo-100">
         <div className="flex items-center gap-4 mb-10">
-          <div className="bg-gradient-to-r from-blue-500 to-blue-600 p-4 rounded-2xl shadow-lg">
+          <div className="bg-linear-to-br from-blue-500 to-blue-600 p-4 rounded-2xl shadow-lg">
             <Mail className="text-white" size={44} />
           </div>
-          <h2 className="text-5xl md:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-slate-900 to-indigo-900 font-heading">
+          <h2 className="text-5xl md:text-6xl font-black text-transparent bg-clip-text bg-linear-to-br from-slate-900 to-indigo-900 font-heading">
             Contact Me
           </h2>
         </div>
+
         <p className="text-xl text-slate-600 mb-10 font-light leading-relaxed">
           Feel free to reach out to me through any of the following channels.
           I&apos;m always open to discussing new opportunities, partnerships, or just
           having a conversation.
         </p>
+
         <div className="space-y-6">
-          <div className="flex items-center gap-6 p-8 bg-gradient-to-br from-indigo-50 to-indigo-100 rounded-2xl border-2 border-indigo-200 hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
-            <div className="bg-gradient-to-br from-indigo-500 to-indigo-600 p-5 rounded-2xl shadow-lg">
+
+          {/* PHONE */}
+          <div className="flex items-center gap-6 p-8 bg-linear-to-br from-indigo-50 to-indigo-100 rounded-2xl border-2 border-indigo-200 hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
+            <div className="bg-linear-to-br from-indigo-500 to-indigo-600 p-5 rounded-2xl shadow-lg">
               <Phone className="text-white" size={32} />
             </div>
             <div>
@@ -36,8 +40,9 @@ export default function ContactPage() {
             </div>
           </div>
 
-          <div className="flex items-center gap-6 p-8 bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl border-2 border-blue-200 hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
-            <div className="bg-gradient-to-br from-blue-500 to-blue-600 p-5 rounded-2xl shadow-lg">
+          {/* FACEBOOK */}
+          <div className="flex items-center gap-6 p-8 bg-linear-to-br from-blue-50 to-blue-100 rounded-2xl border-2 border-blue-200 hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
+            <div className="bg-linear-to-br from-blue-500 to-blue-600 p-5 rounded-2xl shadow-lg">
               <Facebook className="text-white" size={32} />
             </div>
             <div>
@@ -55,8 +60,27 @@ export default function ContactPage() {
             </div>
           </div>
 
-          <div className="mt-10 p-10 bg-gradient-to-r from-slate-900 via-indigo-900 to-blue-900 rounded-3xl text-white shadow-2xl">
-            <h3 className="text-4xl font-black mb-4 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-300 font-heading">
+          {/* EMAIL (ADDED) */}
+          <div className="flex items-center gap-6 p-8 bg-linear-to-br from-purple-50 to-purple-100 rounded-2xl border-2 border-purple-200 hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
+            <div className="bg-linear-to-br from-purple-500 to-purple-600 p-5 rounded-2xl shadow-lg">
+              <Mail className="text-white" size={32} />
+            </div>
+            <div>
+              <h3 className="text-2xl font-bold text-slate-900 mb-2 font-heading">
+                Email
+              </h3>
+              <a
+                href="mailto:assammmazhar89@gmail.com"
+                className="text-xl text-purple-700 hover:text-purple-900 font-bold transition-colors break-all"
+              >
+                assammmazhar89@gmail.com
+              </a>
+            </div>
+          </div>
+
+          {/* BOTTOM SECTION */}
+          <div className="mt-10 p-10 bg-linear-to-br from-slate-900 via-indigo-900 to-blue-900 rounded-3xl text-white shadow-2xl">
+            <h3 className="text-4xl font-black mb-4 text-transparent bg-clip-text bg-linear-to-br from-blue-400 to-indigo-300 font-heading">
               Let&apos;s Work Together
             </h3>
             <p className="text-xl font-light leading-relaxed text-blue-100/90">
@@ -65,6 +89,7 @@ export default function ContactPage() {
               here to help bring your vision to life.
             </p>
           </div>
+
         </div>
       </div>
     </div>
